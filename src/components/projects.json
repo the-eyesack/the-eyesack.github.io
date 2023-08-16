@@ -1,0 +1,11 @@
+[
+  {
+	"title": "theeyesack.me",
+	"link": "localhost:3000",
+	"text": "Custom made portfolio website for myself, built entirely from scratch.",
+	"techstack": ["Astro", "React", "TypeScript", "TailwindCSS"],
+	"github": "https://github.com/the-eyesack/portfolio-remaster"
+  },
+  {
+  }
+]

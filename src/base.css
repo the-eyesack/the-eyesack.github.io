@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        @apply text-text
+    }
+    h1, h2, h3{
+        @apply font-display text-4xl
+    }
+
+    .grad {
+        background: rgb(184,227,245);
+        background: linear-gradient(90deg, rgba(184,227,245,1) 0%, rgba(235,208,112,1) 47%, rgba(190,81,35,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
