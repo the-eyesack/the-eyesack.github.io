@@ -4,8 +4,15 @@
 	"link": "localhost:3000",
 	"text": "Custom made portfolio website for myself, built entirely from scratch.",
 	"techstack": ["Astro", "React", "TypeScript", "TailwindCSS"],
-	"github": "https://github.com/the-eyesack/portfolio-remaster"
+	"github": "https://github.com/the-eyesack/portfolio-remaster",
+	"image": "/portfolio/gradeulator.png"
   },
   {
+	"title": "The Gradeulator",
+	"link": "https://thegradeulator.vercel.app/",
+	"text": "Custom made portfolio website for myself, built entirely from scratch.",
+	"techstack": ["React", "TailwindCSS"],
+	"github": "https://github.com/the-eyesack/thegradeulator",
+	"image": "/portfolio/gradeulator.png"
   }
 ]

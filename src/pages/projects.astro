@@ -5,11 +5,14 @@ import projectList from '../components/projects.json';
 ---
 
 <Layout title="Projects">
-	<main class="flex justify-center flex-col lg:mx-20">
+	<main class="flex justify-center flex-col md:mx-6 lg:mx-8 xl:mx-20">
 		<h1 class="text-6xl lg:mt-10">Projects</h1>
 		<p class="mb-10 text-xl">Showcase-worthy things. Kind of.</p>
 
-		<h2 class="text-4xl lg:mb-10">Featured</h2>
-		{projectList.map((data)=> <ProjectCard title={data.title} text={data.text} link={data.link} github={data.github}/> )}
+		<section>
+			<h2 class="text-4xl lg:mb-10 xl:text-center">Featured</h2>
+				{projectList.map((data)=> <ProjectCard title={data.title} text={data.text} link={data.link} github={data.github} image={data.image}/> )}
+		</section>
+
 	</main>
 </Layout>
