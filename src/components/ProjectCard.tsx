@@ -1,3 +1,4 @@
+// TODO: IMPLEMENT SMALL SCREEN SUPPORT
 export default function ProjectCard(props: {
 	image: string;
 	github: string, title: string, text: string, link: string }) {
