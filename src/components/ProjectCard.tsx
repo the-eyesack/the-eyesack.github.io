@@ -23,7 +23,7 @@ export default function ProjectCard(props: {
 			<div className={"lg:space-x-10 xl:space-x-16 lg:space-y-0 flex justify-center flex-col cursor:flex-row"}>
 
 				{/*links*/}
-				<div className={"z-10 flex flex-row cursor:group-hover/img:opacity-100 space-x-12 transition-all opacity-0 fixed delay-75  lg:group-hover/img:translate-x-6 xl:group-hover/img:translate-x-12"}>
+				<div className={"z-10 flex flex-row cursor:group-hover/img:opacity-100 space-x-12 transition-all opacity-0 absolute delay-75  lg:group-hover/img:translate-x-6 xl:group-hover/img:translate-x-12"}>
 				{props.link ?
 					<a href={props.link} target={'_blank'} className={"group"}>
 						<i className="fa-solid fa-arrow-up-right-from-square

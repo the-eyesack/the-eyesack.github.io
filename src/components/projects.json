@@ -1,6 +1,7 @@
 [
   {
 	"title": "theeyesack.me",
+	"featured": true,
 	"link": "localhost:3000",
 	"text": "Custom made portfolio website for myself, built entirely from scratch.",
 	"techstack": ["Astro", "React", "TypeScript", "TailwindCSS"],
@@ -9,10 +10,19 @@
   },
   {
 	"title": "The Gradeulator",
+	"featured": true,
 	"link": "https://thegradeulator.vercel.app/",
 	"text": "Custom made portfolio website for myself, built entirely from scratch.",
 	"techstack": ["React", "TailwindCSS"],
 	"github": "https://github.com/the-eyesack/thegradeulator",
+	"image": "/portfolio/gradeulator.png"
+  },
+  {
+	"title": "Quickload",
+	"featured": true,
+	"text": "Custom made portfolio website for myself, built entirely from scratch.",
+	"techstack": ["React", "TypeScript", "Plasmo", "TailwindCSS"],
+	"github": "https://github.com/the-eyesack/quickload",
 	"image": "/portfolio/gradeulator.png"
   }
 ]

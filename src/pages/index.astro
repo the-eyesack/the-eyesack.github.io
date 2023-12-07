@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import 'animate.css';
 ---
 
 <Layout title="Isaac's Portfolio">
-	<main>
-		<h1 class="text-4xl">What's good? I'm <span class="grad">Isaac Wong</span>.</h1>
-		<h2>I like to create stuff.</h2>
+	<main class="flex flex-col content-center justify-center w-[100vw] h-[100vh]">
+		<div class="animate__animated animate__backInUp flex justify-center"><h1 class="text-7xl">Yo. I'm <span class="animate__animated animate__delay-1s animate__fast animate__fadeIn text-tertiary uppercase"> Isaac Wong</span>.</h1></div>
+
 	</main>
 </Layout>

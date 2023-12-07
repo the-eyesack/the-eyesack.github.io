@@ -17,3 +17,7 @@
         -webkit-text-fill-color: transparent;
     }
 }
+
+:root {
+    --animate-delay: 0.5s;
+}
