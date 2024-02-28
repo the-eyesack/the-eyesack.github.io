@@ -2,17 +2,38 @@
 import Layout from '../layouts/Layout.astro';
 import ProjectCard from '../components/ProjectCard';
 import projectList from '../components/projects.json';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 ---
 
 <Layout title="Projects">
+	<Navbar/>
+
 	<main class="flex justify-center flex-col md:mx-6 lg:mx-8 xl:mx-20">
 		<h1 class="text-6xl lg:mt-10">Projects</h1>
-		<p class="mb-10 text-xl">Showcase-worthy things. Kind of.</p>
+		<p class="mb-10 text-xl">Showcase-worthy projects.</p>
 
 		<section>
 			<h2 class="text-4xl lg:mb-10 xl:text-center">Featured</h2>
-				{projectList.map((data)=> <ProjectCard title={data.title} text={data.text} link={data.link} github={data.github} image={data.image}/> )}
+				{projectList['Featured'].map((data)=> <ProjectCard title={data.title} text={data.text} link={data.link} github={data.github} image={data.image}/> )}
 		</section>
-
+		<!--not featured projects-->
+		<h2>Check out my other work!</h2>
+		<section class="grid grid-cols-4 pb-10">
+			{projectList['Not Featured'].map((data)=>
+				<p>{data.title}</p>
+				<p class="col-span-2">{data.text}</p>
+				<div>
+					{data.link ?
+						<a href={data.link} target={'_blank'} className={"group"}>
+							<i class="fa-solid fa-arrow-up-right-from-square hover:text-secondary text-xl"></i>
+						</a> : null}
+					{data.github ?
+							<a href={data.github} target={'_blank'} className={"group"}>
+								<i class="fa-brands fa-github hover:text-secondary text-xl"></i>
+							</a> : null}</div>
+			)}
+		</section>
 	</main>
+	<Footer/>
 </Layout>

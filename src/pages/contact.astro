@@ -1,0 +1,17 @@
+---
+
+import Layout from '../layouts/Layout.astro';
+import ContactForm from '../components/ContactForm';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+---
+
+<Layout title="Contact">
+	<Navbar/>
+
+	<main class="flex justify-center flex-col md:mx-6 lg:mx-8 xl:mx-20 h-screen">
+		<h1 class="text-6xl lg:mt-10">Contact Me</h1>
+		<ContactForm/>
+	</main>
+	<Footer/>
+</Layout>
