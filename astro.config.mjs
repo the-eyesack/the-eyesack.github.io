@@ -8,5 +8,6 @@ export default defineConfig({
   integrations: [tailwind(), react()],
   experimental: {
     viewTransitions: true
-  }
+  },
+  site: 'https://theeyesack.me',
 });
