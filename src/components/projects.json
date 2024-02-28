@@ -2,10 +2,10 @@
   "Featured": [
 	{
 	  "title": "theeyesack.me",
-	  "link": "localhost:3000",
+	  "link": "https://theeyesack.me",
 	  "text": "Custom made portfolio website for myself, built entirely from scratch.",
 	  "techstack": ["Astro", "React", "TypeScript", "TailwindCSS"],
-	  "github": "https://github.com/the-eyesack/portfolio-remaster",
+	  "github": "https://github.com/the-eyesack/the-eyesack.github.io",
 	  "image": "/portfolio/theeyesack.png"
 	},
 	{
